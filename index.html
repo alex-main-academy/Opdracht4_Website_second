@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="./index.html" class="header__logo">
+                <img src="./img/main/logo-image.svg" alt="logo">
+            </a>
+            <nav class="header__navigation navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a href="./index.html" class="navigation__link">Home</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="./pages/zaal/index.html" class="navigation__link">Zaalverhuur</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="./pages/kalender/index.html" class="navigation__link">Kalender</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="./pages/over/index.html" class="navigation__link">Over ons</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="./pages/contact/index.html" class="navigation__link">Contact</a>
+                    </li>
+                </ul>
+                <button class="navigation__burger js-burger-open">
+                    <img src="./img/main/burger-menu.svg" alt="burger-menu">
+                </button>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero__slider">
+                <img src="./img/home/hero-back.jpg" alt="nature" class="hero__slide">
+            </div>
+            <div class="container">
+                <h1 class="hero__title">Cultuurcentrum</h1>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <p class="about__text">Het Cultuurcentrum biedt elk seizoen een nieuw cultuuraanbod voor alle
+                    leeftijden! Concert, humor,
+                    theater, kindervoorstellingen workshops & cursussen, events en projecten. Kom zeker langs of wil je
+                    hieraan meewerken als vrijwilliger?</p>
+                <a href="./pages/contact/index.html" class="button about__button">
+                    <span>Contact</span>
+                </a>
+            </div>
+        </section>
+        <section class="info">
+            <div class="container">
+                <div class="info__block">
+                    <div class="info__content">
+                        <h3 class="info__title">Eerstkomende <br> evenement</h3>
+                        <p class="info__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                            eirmod tempor invidunt ut labore etLorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                            sed diam nonumy eirmod tempor invidunt ut labore etLorem ipsum dolor sit amet, consetetur
+                            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore </p>
+                        <a href="./pages/kalender/index.html" class="button info__button"><span>Kalender</span></a>
+                    </div>
+                    <div class="image info__image">
+                        <img src="./img/home/image-1.jpg" alt="party" class="info__image--item">
+                    </div>
+                </div>
+                <div class="info__block">
+                    <div class="info__content">
+                        <h3 class="info__title">Eerstkomende <br> evenement</h3>
+                        <p class="info__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                            eirmod tempor invidunt ut labore etLorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                            sed diam nonumy eirmod tempor invidunt ut labore etLorem ipsum dolor sit amet, consetetur
+                            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore </p>
+                        <a href="./pages/kalender/index.html" class="button info__button"><span>Kalender</span></a>
+                    </div>
+                    <div class="image info__image">
+                        <img src="./img/home/image-2.jpg" alt="party" class="info__image--item">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <a href="./index.html" class="footer__logo">
+                <img src="./img/main/logo-image.svg" alt="logo">
+            </a>
+            <div class="footer__text">
+                <div class="footer__text--item first__text">
+                    <p>Privacyverklaring</p>
+                    <p>Contact</p>
+                </div>
+                <div class="footer__text--item second__text">
+                    <p>Gebruiksvoorwaarden</p>
+                    <p>Cookies</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="burger">
+        <button class="burger__close js-burger-close">
+            <img src="./img/main/close-icon.png" alt="menu close">
+        </button>
+        <ul class="burger__list">
+            <li class="burger__item">
+                <a href="./index.html" class="burger__link">Home</a>
+            </li>
+            <li class="burger__item">
+                <a href="./pages/zaal/index.html" class="burger__link">Zaalverhuur</a>
+            </li>
+            <li class="burger__item">
+                <a href="./pages/kalender/index.html" class="burger__link">Kalender</a>
+            </li>
+            <li class="burger__item">
+                <a href="./pages/over/index.html" class="burger__link">Over ons</a>
+            </li>
+            <li class="burger__item">
+                <a href="./pages/contact/index.html" class="burger__link">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

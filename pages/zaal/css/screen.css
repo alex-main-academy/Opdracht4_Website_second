@@ -1,0 +1,117 @@
+.zaal {
+    padding: 136px 0 100px 0;
+
+    background-image: url(../img/main-figure-back.png);
+    background-repeat: no-repeat;
+    background-position: top 112px right -40px;
+}
+
+@media screen and (max-width:480px) {
+    .zaal {
+        padding: 51px 0 76px 0;
+        background-image: none;
+    }
+}
+
+.zaal__title {
+    font-size: 70px;
+    line-height: 85px;
+    margin-bottom: 136px;
+}
+
+@media screen and (max-width:480px) {
+    .zaal__title {
+        font-size: 45px;
+        line-height: 56px;
+        margin-bottom: 56px;
+        text-align: center;
+    }
+}
+
+.zaal__list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 25px;
+    row-gap: 100px;
+}
+
+@media screen and (max-width:480px) {
+    .zaal__list {
+        column-gap: 0;
+        row-gap: 89px;
+    }
+}
+
+.zaal__item {
+    width: calc((100% - 50px) / 3);
+}
+
+@media screen and (max-width:480px) {
+    .zaal__item {
+        width: 100%;
+    }
+}
+
+.zaal__image {
+    position: relative;
+    margin-bottom: 19px;
+}
+
+@media screen and (max-width:480px) {
+    .zaal__image {
+        margin-bottom: 28px;
+    }
+}
+
+.zaal__image a {
+    display: block;
+    position: absolute;
+    bottom: 27px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    width: 168px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+    color: var(--white-text-color);
+    font-weight: 600;
+    background-color: var(--blue-back);
+}
+
+.zaal__subtitle {
+    font-size: 40px;
+    line-height: 49px;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+
+.zaal__description {
+    max-width: 254px;
+    font-size: 20px;
+    line-height: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width:480px) {
+    .zaal__description {
+        font-size: 17px;
+        line-height: 20px;
+    }
+}
+
+.zaal__button {
+    display: none;
+}
+
+@media screen and (max-width:480px) {
+    .zaal__button {
+        display: block;
+        margin: 48px auto 0 auto;
+    }
+
+    .zaal__button span {
+        left: 13px;
+    }
+}
