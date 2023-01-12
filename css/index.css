@@ -216,6 +216,7 @@ a {
 
 .burger {
   position: absolute;
+  z-index: 1000;
   top: 0;
   left: 0;
   width: 100%;
@@ -270,8 +271,9 @@ a {
 }
 
 @media screen and (max-width: 480px) {
-  .hero__slider {
-    height: 354px;
+  .swiper-wrapper {
+    height: 354px !important;
+    z-index: 0;
   }
 }
 
@@ -540,6 +542,40 @@ a {
 @media screen and (max-width: 480px) {
   .second__text {
     margin-top: 0;
+  }
+}
+
+
+/* swiper */
+.swiper-button-prev::after {
+  display: none;
+}
+
+.swiper-button-prev img {
+  position: absolute;
+  left: 140px;
+}
+
+@media screen and (max-width:480px) {
+  .swiper-button-prev img {
+    left: 40px;
+    width: 36px;
+  }
+}
+
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-next img {
+  position: absolute;
+  right: 140px;
+}
+
+@media screen and (max-width:480px) {
+  .swiper-button-next img {
+    right: 40px;
+    width: 36px;
   }
 }
 

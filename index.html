@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -47,8 +48,17 @@
     </header>
     <main>
         <section class="hero">
-            <div class="hero__slider">
-                <img src="./img/home/hero-back.jpg" alt="nature" class="hero__slide">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <img src="./img/home/hero-back.jpg" alt="nature" class="hero__slide swiper-slide">
+                    <img src="./img/home/hero-back.jpg" alt="nature" class="hero__slide swiper-slide">
+                </div>
+                <div class="swiper-button-prev">
+                    <img src="./img/swiper/left-arrow.png" alt="left-arrow">
+                </div>
+                <div class="swiper-button-next">
+                    <img src="./img/swiper/right-arrow.png" alt="right-arrow">
+                </div>
             </div>
             <div class="container">
                 <h1 class="hero__title">Cultuurcentrum</h1>
@@ -137,7 +147,9 @@
         </ul>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
+    <script src="./js/swiper.js"></script>
 </body>
 
 </html>
