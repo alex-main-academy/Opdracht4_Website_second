@@ -83,6 +83,7 @@
 @media screen and (max-width:480px) {
     .over__video {
         width: 100%;
+        height: 250px;
         margin-bottom: 66px;
     }
 }
